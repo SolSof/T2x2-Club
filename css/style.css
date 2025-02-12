@@ -326,6 +326,7 @@ footer{
 .footer-cooperation__title{
     font-size: 30px;
     font-weight: 600;
+    margin-bottom: 5%;
 }
 .footer-cooperation__mail{
     text-decoration: none;
@@ -402,7 +403,7 @@ table{
     border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 5%;
-    max-width: 600px;   
+    width: 600px;   
 }
 
 th{
