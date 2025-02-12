@@ -429,7 +429,7 @@ form{
     margin: 2% 7%;
     border: #F461D5 solid 3px;
     padding: 3%;
-    max-width: 600px;
+    max-width: 75%;
 }
 input{
     margin: 2% 0;
@@ -469,6 +469,7 @@ button{
 .registration-section__text{
     max-width: 400px;
     font-size: 18px;
+    margin: 0 auto;
 }
 .registration__form{
     border: #00D987 solid 3px;
@@ -476,9 +477,9 @@ button{
 
 /* ----------signin---------------- */
 .signin__link{
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
     color: var(--wgreen);
 }
 .signin-section{
@@ -486,10 +487,6 @@ button{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-}
-.signin-section__text{
-    max-width: 400px;
-    font-size: 25px;
 }
 .signin__form{
     border: #00D987 solid 3px;

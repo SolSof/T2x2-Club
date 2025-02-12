@@ -438,9 +438,11 @@
     }
     .header-nav__link {
         font-size: 5px;
+        padding: 0 10px;
     }
     .header-nav__link-reg {
         font-size: 5px;
+        padding: 0 -10px;
     }
     .header-slogan {
         font-size: 10px;
@@ -474,7 +476,7 @@
     .main-section-about-us__title {
         font-size: 11px;
         max-width: 283px;
-        margin-bottom: -2px;
+        margin-bottom: 2px;
     }
     .main-section-about-us__text-about {
         font-size: 6px;
@@ -527,6 +529,9 @@
         font-size: 13px;
         margin: 24px auto;
         margin-top: 47px;
+    }
+    .text-to-reserv{
+        font-size: 10px;
     }
     footer {
         min-height: 70px;
@@ -649,5 +654,33 @@
         font-size: 8px;
         max-width: 137px;
         padding-bottom: 38px;
+    }
+    .form-title{
+        font-size: 15px;
+    }
+    form{
+        font-size: 10px;
+    }
+    input{
+        width: 60px;
+        height: 15px;
+        font-size: 8px;
+    }
+    select{
+        width: 60px;
+        height: 15px;
+        font-size: 8px;
+    }
+    button{
+        height: 15px;
+        width: 100px;
+        font-size: 8px;
+    }
+    .registration-section__text{
+        max-width: 400px;
+        font-size: 10px;
+    }
+    .signin__link{
+        font-size: 10px;
     }
 }
