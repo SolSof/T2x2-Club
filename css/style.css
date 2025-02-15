@@ -500,7 +500,10 @@ button{
     margin: 3% 0;
     flex-wrap: wrap;
 }
+.contacts-main-section__text{
+    margin: 20px;
 
+}
 .contacts-main-section__title{
     font-size: 30px;
     font-weight: 600;

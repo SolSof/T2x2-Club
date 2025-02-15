@@ -1,3 +1,6 @@
+@media screen and(max-width:996px) {
+    
+}
 @media screen and (max-width: 768px) {
     .container{
         max-width:992px ;
@@ -9,7 +12,7 @@
     .header-nav__link{
         font-size: 13px;
         font-weight: 500;
-        padding-left: 19px;
+        padding-left: 18px;
     }
     .header-nav__link-reg{
         font-size: 13px;
@@ -215,7 +218,8 @@
         max-height: 42px;
     }
     .header-nav__link{
-        font-size: 8.5px;
+        font-size: 8px;
+        padding-left: 16px;
     }
     .header-nav__link-reg{
         font-size: 8.5px;
@@ -427,6 +431,42 @@
         max-width: 208.8px;
         padding-bottom: 58px;
     }
+    .form-title{
+        font-size: 15px;
+    }
+    form{
+        font-size: 10px;
+    }
+    input{
+        width: 60px;
+        height: 15px;
+        font-size: 8px;
+    }
+    select{
+        width: 60px;
+        height: 15px;
+        font-size: 8px;
+    }
+    button{
+        height: 15px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .registration-section__text{
+        max-width: 400px;
+        font-size: 10px;
+    }
+    .signin__link{
+        font-size: 10px;
+    }
+    .registration-section__text{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .signin-section__text{
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
 @media screen and (max-width: 378px) {
     .container {
@@ -438,7 +478,7 @@
     }
     .header-nav__link {
         font-size: 5px;
-        padding: 0 8px;
+        padding-left: 8px;
     }
     .header-nav__link-reg {
         font-size: 5px;
@@ -678,9 +718,9 @@
     }
     .registration-section__text{
         max-width: 400px;
-        font-size: 10px;
+        font-size: 8px;
     }
     .signin__link{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
