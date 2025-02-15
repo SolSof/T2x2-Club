@@ -498,6 +498,7 @@ button{
     align-items: flex-start;
     gap: 3%;
     margin: 3% 0;
+    flex-wrap: wrap;
 }
 
 .contacts-main-section__title{
