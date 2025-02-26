@@ -1,6 +1,3 @@
-@media screen and(max-width:996px) {
-    
-}
 @media screen and (max-width: 768px) {
     .container{
         max-width:992px ;
@@ -12,7 +9,7 @@
     .header-nav__link{
         font-size: 13px;
         font-weight: 500;
-        padding-left: 18px;
+        padding-left: 19px;
     }
     .header-nav__link-reg{
         font-size: 13px;
@@ -218,8 +215,7 @@
         max-height: 42px;
     }
     .header-nav__link{
-        font-size: 8px;
-        padding-left: 16px;
+        font-size: 8.5px;
     }
     .header-nav__link-reg{
         font-size: 8.5px;
@@ -431,42 +427,6 @@
         max-width: 208.8px;
         padding-bottom: 58px;
     }
-    .form-title{
-        font-size: 15px;
-    }
-    form{
-        font-size: 10px;
-    }
-    input{
-        width: 60px;
-        height: 15px;
-        font-size: 8px;
-    }
-    select{
-        width: 60px;
-        height: 15px;
-        font-size: 8px;
-    }
-    button{
-        height: 15px;
-        width: 100px;
-        font-size: 10px;
-    }
-    .registration-section__text{
-        max-width: 400px;
-        font-size: 10px;
-    }
-    .signin__link{
-        font-size: 10px;
-    }
-    .registration-section__text{
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    .signin-section__text{
-        text-align: center;
-        margin-bottom: 15px;
-    }
 }
 @media screen and (max-width: 378px) {
     .container {
@@ -478,11 +438,9 @@
     }
     .header-nav__link {
         font-size: 5px;
-        padding-left: 8px;
     }
     .header-nav__link-reg {
         font-size: 5px;
-        padding: 0 -8px;
     }
     .header-slogan {
         font-size: 10px;
@@ -516,7 +474,7 @@
     .main-section-about-us__title {
         font-size: 11px;
         max-width: 283px;
-        margin-bottom: 2px;
+        margin-bottom: -2px;
     }
     .main-section-about-us__text-about {
         font-size: 6px;
@@ -569,9 +527,6 @@
         font-size: 13px;
         margin: 24px auto;
         margin-top: 47px;
-    }
-    .text-to-reserv{
-        font-size: 10px;
     }
     footer {
         min-height: 70px;
@@ -694,33 +649,5 @@
         font-size: 8px;
         max-width: 137px;
         padding-bottom: 38px;
-    }
-    .form-title{
-        font-size: 12px;
-    }
-    form{
-        font-size: 8px;
-    }
-    input{
-        width: 60px;
-        height: 15px;
-        font-size: 6px;
-    }
-    select{
-        width: 60px;
-        height: 15px;
-        font-size: 6px;
-    }
-    button{
-        height: 15px;
-        width: 100px;
-        font-size: 8px;
-    }
-    .registration-section__text{
-        max-width: 400px;
-        font-size: 8px;
-    }
-    .signin__link{
-        font-size: 8px;
     }
 }

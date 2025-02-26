@@ -326,7 +326,6 @@ footer{
 .footer-cooperation__title{
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 5%;
 }
 .footer-cooperation__mail{
     text-decoration: none;
@@ -403,7 +402,7 @@ table{
     border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 5%;
-    width: 600px;   
+    max-width: 600px;   
 }
 
 th{
@@ -429,7 +428,7 @@ form{
     margin: 2% 7%;
     border: #F461D5 solid 3px;
     padding: 3%;
-    max-width: 75%;
+    max-width: 600px;
 }
 input{
     margin: 2% 0;
@@ -469,7 +468,6 @@ button{
 .registration-section__text{
     max-width: 400px;
     font-size: 18px;
-    margin: 0 auto;
 }
 .registration__form{
     border: #00D987 solid 3px;
@@ -477,9 +475,9 @@ button{
 
 /* ----------signin---------------- */
 .signin__link{
-    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
     color: var(--wgreen);
 }
 .signin-section{
@@ -487,6 +485,10 @@ button{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+.signin-section__text{
+    max-width: 400px;
+    font-size: 25px;
 }
 .signin__form{
     border: #00D987 solid 3px;
@@ -498,12 +500,8 @@ button{
     align-items: flex-start;
     gap: 3%;
     margin: 3% 0;
-    flex-wrap: wrap;
 }
-.contacts-main-section__text{
-    margin: 20px;
 
-}
 .contacts-main-section__title{
     font-size: 30px;
     font-weight: 600;
@@ -553,10 +551,17 @@ button{
     padding-left:12%;
     margin-bottom:8%;
 }
+.sales-section-first-sale:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
 .first-sale__title{
     font-weight: 900;
     font-size: 60px;
     padding-top: 8%;
+}
+.sales-link{
+    text-decoration: none;
 }
 .first-sale__text-about{
     font-weight: 600;
@@ -579,6 +584,10 @@ button{
     background-size:  cover;
     background-position: center center;
     margin-bottom: 8%;
+}
+.sales-section-second-sale:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
 }
 .second-sale__title{
     font-weight: 900;
@@ -613,6 +622,10 @@ button{
     background-size:  cover;
     margin-bottom: 8%;
 }
+.sales-section-third-sale:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
 .third-sale__title{
     font-weight: 900;
     font-size: 60px;
@@ -637,6 +650,10 @@ button{
     background-size:  cover;
     margin-bottom: 8%;
     padding-left:12.5%;
+}
+.sales-section-fourth-sale:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
 }
 .fourth-sale__title{
     font-weight: 900;
